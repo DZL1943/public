@@ -26,13 +26,13 @@
 - 熟练使用 Linux（Debian|RedHat） Shell 命令，如 grep，sed，ps
 - 熟练使用 git，vim（emacs）
 - 熟练使用常用数据结构
-- 理解 TCP/IP协议栈，能够基于熟悉的语言进行基础 socket、web 开发，了解实验室组网
+- 理解 TCP/IP 协议栈，能够基于熟悉的语言进行基础 socket、web 开发，了解实验室组网
 - 熟悉数据库基本概念，常规使用 MySQL、PostgreSQL，了解 MongoDB、Redis
 - 了解 RabbitMQ
 - 了解 Zookeeper
 - 了解 Jenkins
 - 编译，不懂
-- 了解（极少）OpenGL
+- 了解（极少）OpenGL，常规使用 Qt
 - 了解单片机原理
 
 ** 语言平台
