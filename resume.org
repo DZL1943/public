@@ -40,6 +40,7 @@
 
 能够使用 汇编、C、C++、Java、Ruby 进行初级编程。
 了解 Lisp （非常喜欢其 code-as-data 的哲学以及无副作用的函数式编程范式）
+了解 Node.js
 
 ** 移动开发
 了解 Android 和 iOS 开发
