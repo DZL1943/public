@@ -36,7 +36,7 @@
 - 了解单片机原理
 
 ** 语言平台
-熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, logging, threading, collections等），熟悉常用第三方库（routes, requests，SQLAlchemy, Flask, Django等）
+熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, logging, threading, collections等），熟悉常用第三方库（routes, requests, SQLAlchemy, Eventlet, Flask, Django等）
 
 能够使用 汇编、C、C++、Java、Ruby 进行初级编程。  
 了解 Lisp （非常喜欢其 code-as-data 的哲学以及无副作用的函数式编程范式）  
