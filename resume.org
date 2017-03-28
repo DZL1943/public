@@ -36,20 +36,20 @@
 - 了解单片机原理
 
 ** 语言平台
-熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, logging, threading, collections等），熟悉常用第三方库（routes, requests, SQLAlchemy, Eventlet, Flask, Django等）
+- 熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, logging, contextlib, threading, collections等），熟悉常用第三方库（routes, requests, SQLAlchemy, Eventlet, Flask, Django等）
 
-能够使用 汇编、C、C++、Java、Ruby 进行初级编程。  
-了解 Lisp （非常喜欢其 code-as-data 的哲学以及无副作用的函数式编程范式）  
-了解 Node.js  
+- 能够使用 汇编、C、C++、Java、Ruby 进行初级编程。  
+- 了解 Lisp （非常喜欢其 code-as-data 的哲学以及无副作用的函数式编程范式）  
+- 了解 Node.js  
 
 ** 移动开发
 了解 Android 和 iOS 开发
 ** 虚拟化，云计算
-熟练使用 VMWare WorkStation 自建虚拟机  
-常规使用 Docker  
-了解 kvm，libvirt  
-熟悉 OpenStack。虽然没有用 devstack 装过，但是使用过华为云，看过 Keystone 等核心组件源码。  
-了解 aws(ec2, s3)
+- 熟练使用 VMWare WorkStation 自建虚拟机  
+- 常规使用 Docker  
+- 了解 kvm，libvirt  
+- 熟悉 OpenStack。虽然没有用 devstack 装过，但是使用过华为云，看过 Keystone 等核心组件源码。  
+- 了解 aws(ec2, s3)
 ** 大数据
 了解（极少） Hadoop
 ** 人工智能
