@@ -36,7 +36,7 @@
 - 了解单片机原理
 
 ** 语言平台
-- 熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, contextlib, logging, threading, collections等），熟悉常用第三方库（routes, requests, SQLAlchemy, Eventlet, Flask, Django等）
+- 熟练使用 Python 编程语言。具体为：熟练使用数据结构，有良好的异常编码习惯，了解高级语法（列表、字典解析，自省，context，装饰器，生成器，协程等），熟悉标准库（argparse, configparse, subprocess, logging, threading, collections等），熟悉常用第三方库（routes, requests, SQLAlchemy, Eventlet, Flask, Django等）
 
 - 能够使用 汇编、C、C++、Java、Ruby 进行初级编程。  
 - 了解 Lisp （非常喜欢其 code-as-data 的哲学以及基于 λ 演算的无副作用的函数式编程范式）  
@@ -65,6 +65,6 @@
 
 * 自述
 以上就是本人的大致情况，毫无保留，巨细靡遗。  
-我了解工作的第一要则就是切实解决问题，希望我的专业能力能够为贵公司带来价值。  
+我了解工作的第一要则就是高效切实解决问题，希望我的专业能力能够为贵公司带来价值。  
 
 INTJ，喜欢学习新技术，吃苦耐劳，有责任心，信守承诺。
