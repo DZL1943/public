@@ -45,7 +45,7 @@
 ** 移动开发
 了解 Android 和 iOS 开发
 ** 虚拟化，云计算
-- 熟练使用 VMWare WorkStation 自建虚拟机  
+- 熟练使用 VMWare WorkStation、esx 自建虚拟机  
 - 常规使用 Docker  
 - 了解 kvm，libvirt  
 - 熟悉 OpenStack。虽然没有用 devstack 装过，但是使用过华为云，看过 Keystone 等核心组件源码。  
