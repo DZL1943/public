@@ -1,4 +1,4 @@
-# 简历
+# [简历](https://github.com/DZL1943/public/blob/master/resume.md)
 
 更新日期：2018.6.3
 
@@ -110,23 +110,28 @@
     - Ansible
     - Docker
     - Zabbix
+    - Elasticsearch
   - [x] [OpenStack](https://www.openstack.org/software/)
     - keystone
-    ```text
-    user 是API 调用者
-    user 拥有 credentials，比如 user/password，token 等
-    token 相当于是用户信息的加密形式，方便在服务请求时携带。
-    keystone token 的类型：uuid、pki（可离线验证、长度大、需持久化）、pkiz、fernet
-    user 归属于0个或多个 group
-    当 user 访问某服务时，该服务会通过 keystone middleware 对其进行身份认证，认证过后再通过服务自身的 policy.json 基于 role 对该用户的行为进行鉴权，最终返回结果。（前提是该服务使用keystone进行认证并且已注册）
-    project 代表资源划分，每个 user 必须归属它需要访问资源的 project，user 可以归属多个 project
-    在一个 domain 中 user、group、project 是唯一的，role 是全局的。
-    endpoint 即服务入口 url
-    region 可以理解为地理上的隔离，每个 region 可以有独立完整的 openstack 部署环境
-    service 拥有 endpoints，这些 endpoints 可以属于不同的 region（所以 keystone 是可以跨 region 的）
+      - keystone
+      ```text
+      user 是API 调用者
+      user 拥有 credentials，比如 user/password，token 等
+      token 相当于是用户信息的加密形式，方便在服务请求时携带。
+      keystone token 的类型：uuid、pki（可离线验证、长度大、需持久化）、pkiz、fernet
+      user 归属于0个或多个 group
+      当 user 访问某服务时，该服务会通过 keystone middleware 对其进行身份认证，认证过后再通过服务自身的 policy.json 基于 role 对该用户的行为进行鉴权，最终返回结果。（前提是该服务使用keystone进行认证并且已注册）
+      project 代表资源划分，每个 user 必须归属它需要访问资源的 project，user 可以归属多个 project
+      在一个 domain 中 user、group、project 是唯一的，role 是全局的。
+      endpoint 即服务入口 url
+      endpoint discovery
+      region 可以理解为地理上的隔离，每个 region 可以有独立完整的 openstack 部署环境
+      service 拥有 endpoints，这些 endpoints 可以属于不同的 region（所以 keystone 是可以跨 region 的）
 
-    keystone identity 对接 ldap
-    ```
+      keystone identity 对接 ldap
+      ```
+      - keystoneauth
+      - keystonemiddleware
     - glance
     - nova
       - 子服务
