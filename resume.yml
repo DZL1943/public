@@ -1,0 +1,161 @@
+---
+版本: 2018.6.7
+链接: https://github.com/DZL1943/public/blob/master/resume.yml
+
+基本信息:
+  姓名: 刘德忠
+  出生日期: 1994.1
+  婚姻状况: 未婚
+  政治面貌: 团员
+  籍贯: 江西赣州
+  民族: 汉
+  住址: 上海
+  联系方式:
+    - 电话: 
+    - email: ldz1943@163.com
+  家庭成员:
+
+教育背景:
+  - 2012.9-2016.6: 南昌大学-软件工程本科
+
+工作履历:
+  - 2018.1-2018.6:
+    公司: 华云数据-上海
+    职位: DevOps工程师
+    工作内容:
+      - jenkins打包自动化
+      - gerrit门禁
+      - tempest
+      - 开发/测试环境部署和维护
+      - 容器技术预研
+  - 2016.5-2017.12: 
+    公司: 软通动力-杭州
+    职位: Python开发工程师
+    工作内容:  # 外包在华云杭研做云计算基础服务开发, 涉及模块 keystone rabbitmq gaussdb ntp log healthcheck等
+      - 从信息收集模块的自动化用例补充开始, 逐步接管该模块的需求开发和问题单解决
+      - 熟悉组内其它模块业务, 自学keystone
+      - 2017.5-2017.11 推荐在运维小组oncall现网(五朵公有云)问题. 在此期间迅速掌握兄弟部门(安装部署)的业务知识, 对原项目组的知识也有了更深层的认识. 在现网问题接口的6个月里,先后自主攻关问题10余个, 并主动学习了运维和openstack知识.
+      - 回归项目组做rabbitmq开发
+
+专业素质:
+  基础知识:
+    - 体系结构
+    - 操作系统
+    - 编译原理
+    - 算法
+    - 网络
+  编程平台:  # C - Python/Scala - Lisp
+    - JavaScript
+    - C
+    - Java
+    - Python:  # since 2014
+      数据结构:
+        - list
+        - tuple
+        - dict
+        - set
+        - collections
+        - queue
+        - heapq
+      高级语法:
+        - 列表、字典推导
+        - 装饰器
+        - 生成器
+        - 上下文管理器
+        - 协议方法
+        - 描述符
+        - metaclass
+        - async
+      标准库:
+        - os, sys, pdb, traceback
+        - threading, multiprocessing
+        - itertools
+        - logging
+        - unittest
+        - re, json
+        - argparse, configparser, subprocess
+        - socket, http, wsgiref, urllib
+      第三方库:
+        - requests
+        - sqlalchemy
+        - eventlet
+        - paramiko
+        - celery
+        - supervisor
+        - schema
+        - cliff
+        - pillow
+        - webob, pecan, flask, django, tornado, twisted, scrapy
+        - numpy, scipy, matplotlib, scikit-learn
+      venv & tox:
+      jupyter:
+    - Erlang
+    - Lisp
+  技术领域:
+    - web
+    - App
+    - 游戏
+    - Qt
+    - 分布式系统和中间件:
+      - ntp
+      - syslog
+      - postgresql
+      - rabbitmq
+      - apache
+      - nginx
+      - haproxy
+      - lvs
+      - keepalived
+      - corosync
+      - etcd
+    - DevOps:
+      - jenkins
+      - ansible
+      - docker:
+        - image & dockerfile
+        - container
+        - network
+        - volume
+        - k8s
+      - zabbix
+      - elasticsearch
+    - OpenStack:  # https://www.openstack.org/software/
+      - keystone:
+        - keystone:
+          - user
+          - group
+          - credential
+            - password
+            - token
+              - pki
+              - fernet
+          - role  # 全局唯一
+          - policy
+          - project
+          - domain  # user group project 在domain内唯一
+          - endpoint
+          - service
+          - region  # 每个region下可以有独立的openstack部署及对应的endpoint, keystone可以跨region
+        - keystoneauth
+        - keystonemiddleware
+      - glance
+      - nova:
+        - nova-api
+        - nova-compute
+        - nova-scheduler
+        - nova-conductor
+        - nova-cell
+      - neutron  # server - plugin - extension -agent
+      # https://docs.openstack.org/neutron/latest/admin/config-ml2.html#ml2-driver-support-matrix
+      - cinder
+      - swift
+    - Ceph
+    - 大数据 & AI
+
+求职意向:  # 我能做什么, 想做什么
+  云计算是一个非常有挑战和前景的领域，它既要求扎实全面的计算机基础知识，同时又要求极高的编程功底和基础运维能力，作为 IaaS，它掌管全部 IT 基础设施并为其上的大规模应用提供高效稳定的运行环境。
+  云计算和 AI 就是运维的未来，也是整个 IT 业未来发展的必然趋势。
+
+自我评价:
+  除了颜值和不怎么会聊天以外，我是一个随和包容、诚信正直、守时、有责任心、务实、有冒险精神、善于规划和学习的人。
+  我期待一个公正且有领导力的上级以及能够精诚合作的团队，为我们共同的目标，不懈奋斗！
