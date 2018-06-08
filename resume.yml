@@ -1,5 +1,5 @@
 ---
-版本: 2018.6.7
+版本: 2018.6.8
 链接: https://github.com/DZL1943/public/blob/master/resume.yml
 
 基本信息:
@@ -33,7 +33,7 @@
     职位: Python开发工程师
     工作内容:  # 外包在华云杭研做云计算基础服务开发, 涉及模块 keystone rabbitmq gaussdb ntp log healthcheck等
       - 从信息收集模块的自动化用例补充开始, 逐步接管该模块的需求开发和问题单解决
-      - 熟悉组内其它模块业务, 自学keystone
+      - 熟悉组内其它业务模块, 自学keystone
       - 2017.5-2017.11 推荐在运维小组oncall现网(五朵公有云)问题. 在此期间迅速掌握兄弟部门(安装部署)的业务知识, 对原项目组的知识也有了更深层的认识. 在现网问题接口的6个月里,先后自主攻关问题10余个, 并主动学习了运维和openstack知识.
       - 回归项目组做rabbitmq开发
 
@@ -96,7 +96,7 @@
     - App
     - 游戏
     - Qt
-    - 分布式系统和中间件:
+    - 中间件:
       - ntp
       - syslog
       - postgresql
@@ -108,20 +108,76 @@
       - keepalived
       - corosync
       - etcd
+      - redis
     - DevOps:
       - jenkins
       - ansible
       - docker:
+        - CLI
         - image & dockerfile
         - container
         - network
         - volume
-        - k8s
+        - OCI
+        - k8s:
+          组件:
+            - kubernetes-master
+              - kube-apiserver
+              - kube-controller-manager
+              - kube-scheduler
+            - kubernetes-node
+              - kubelet
+              - kube-proxy
+            - kubernetes-client
+              - kubectl
+          概念:
+            - buildconfigs 
+            - builds
+            - clusters 
+            - componentstatuses 
+            - configmaps 
+            - daemonsets 
+            - deployments 
+            - deploymentconfigs 
+            - endpoints 
+            - events 
+            - horizontalpodautoscalers 
+            - imagestreamimages 
+            - imagestreams 
+            - imagestreamtags 
+            - ingresses 
+            - groups
+            - jobs
+            - limitranges 
+            - namespaces 
+            - networkpolicies
+            - nodes 
+            - persistentvolumeclaims 
+            - persistentvolumes 
+            - pods 
+            - podsecuritypolicies 
+            - podtemplates
+            - policies
+            - projects
+            - replicasets 
+            - replicationcontrollers 
+            - resourcequotas 
+            - rolebindings
+            - routes
+            - secrets
+            - serviceaccounts 
+            - services 
+            - statefulsets
+            - users
+            - storageclasses
+            - thirdpartyresources
+          原理:
+          部署:
       - zabbix
       - elasticsearch
     - OpenStack:  # https://www.openstack.org/software/
       - keystone:
-        - keystone:
+        - 概念:
           - user
           - group
           - credential
@@ -149,8 +205,11 @@
       # https://docs.openstack.org/neutron/latest/admin/config-ml2.html#ml2-driver-support-matrix
       - cinder
       - swift
-    - Ceph
-    - 大数据 & AI
+    - 分布式存储
+      - Ceph
+    - 分布式计算
+      - Spark
+    - AI
 
 求职意向:  # 我能做什么, 想做什么
   云计算是一个非常有挑战和前景的领域，它既要求扎实全面的计算机基础知识，同时又要求极高的编程功底和基础运维能力，作为 IaaS，它掌管全部 IT 基础设施并为其上的大规模应用提供高效稳定的运行环境。
