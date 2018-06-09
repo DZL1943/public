@@ -1,5 +1,5 @@
 ---
-版本: 2018.6.8
+版本: 20180609
 链接: https://github.com/DZL1943/public/blob/master/resume.yaml
 
 基本信息:
@@ -37,184 +37,217 @@
       - 2017.5-2017.11 推荐在运维小组oncall现网(五朵公有云)问题. 在此期间迅速掌握兄弟部门(安装部署)的业务知识, 对原项目组的知识也有了更深层的认识. 在现网问题接口的6个月里,先后自主攻关问题10余个, 并主动学习了运维和openstack知识.
       - 回归项目组做rabbitmq开发
 
-专业素质:
-  基础知识:
-    - 体系结构
-    - 操作系统
-    - 编译原理
-    - 算法
-    - 网络
-  编程平台:  # C - Python/Scala - Lisp
-    - JavaScript
-    - C
-    - Java
-    - Python:  # since 2014
-      数据结构:
-        - list
-        - tuple
-        - dict
-        - set
-        - collections
-        - queue
-        - heapq
-      高级语法:
-        - 列表、字典推导
-        - 装饰器
-        - 生成器
-        - 上下文管理器
-        - 协议方法
-        - 描述符
-        - metaclass
-        - async
-      标准库:
-        - os, sys, pdb, traceback
-        - threading, multiprocessing
-        - itertools
-        - logging
-        - unittest
-        - re, json
-        - argparse, configparser, subprocess
-        - socket, http, wsgiref, urllib
-      第三方库:
-        - requests
-        - sqlalchemy
-        - eventlet
-        - paramiko
-        - celery
-        - supervisor
-        - schema
-        - cliff
-        - pillow
-        - webob, pecan, flask, django, tornado, twisted, scrapy
-        - numpy, scipy, matplotlib, scikit-learn
-      venv & tox:
-      jupyter:
-    - Erlang
-    - Lisp
-  技术领域:
-    - web
-    - App
-    - 游戏
-    - Qt
-    - 中间件:
-      - ntp
-      - syslog
-      - postgresql
-      - rabbitmq
-      - apache
-      - nginx
-      - haproxy
-      - lvs
-      - keepalived
-      - corosync
-      - etcd
-      - redis
-    - DevOps:
-      - jenkins
-      - ansible
-      - docker:
-        - CLI
-        - image & dockerfile
-        - container
-        - network
-        - volume
-        - OCI
-        - k8s:
-          组件:
-            - kubernetes-master
-              - kube-apiserver
-              - kube-controller-manager
-              - kube-scheduler
-            - kubernetes-node
-              - kubelet
-              - kube-proxy
-            - kubernetes-client
-              - kubectl
-          概念:
-            - buildconfigs 
-            - builds
-            - clusters 
-            - componentstatuses 
-            - configmaps 
-            - daemonsets 
-            - deployments 
-            - deploymentconfigs 
-            - endpoints 
-            - events 
-            - horizontalpodautoscalers 
-            - imagestreamimages 
-            - imagestreams 
-            - imagestreamtags 
-            - ingresses 
-            - groups
-            - jobs
-            - limitranges 
-            - namespaces 
-            - networkpolicies
-            - nodes 
-            - persistentvolumeclaims 
-            - persistentvolumes 
-            - pods 
-            - podsecuritypolicies 
-            - podtemplates
-            - policies
-            - projects
-            - replicasets 
-            - replicationcontrollers 
-            - resourcequotas 
-            - rolebindings
-            - routes
-            - secrets
-            - serviceaccounts 
-            - services 
-            - statefulsets
-            - users
-            - storageclasses
-            - thirdpartyresources
-          原理:
-          部署:
-      - zabbix
-      - elasticsearch
-    - OpenStack:  # https://www.openstack.org/software/
-      - keystone:
-        - 概念:
-          - user
-          - group
-          - credential
-            - password
-            - token
-              - pki
-              - fernet
-          - role  # 全局唯一
-          - policy
-          - project
-          - domain  # user group project 在domain内唯一
-          - endpoint
-          - service
-          - region  # 每个region下可以有独立的openstack部署及对应的endpoint, keystone可以跨region
-        - keystoneauth
-        - keystonemiddleware
-      - glance
-      - nova:
-        - nova-api
-        - nova-compute
-        - nova-scheduler
-        - nova-conductor
-        - nova-cell
-      - neutron  # server - plugin - extension -agent
-      # https://docs.openstack.org/neutron/latest/admin/config-ml2.html#ml2-driver-support-matrix
-      - cinder
-      - swift
-    - 分布式存储
-      - Ceph
-    - 分布式计算
-      - Spark
-    - AI
+求职意向:
+  地点:  # 暂无要求, 以下是优先项
+    - 深圳
+    - 杭州
+  薪资: 10k+  # 主要考虑团队发展
+  行业:
+  职能: 技术研发
+  岗位:
+    - Python开发工程师
+    - 运维开发(DevOps)工程师
+    - 云计算开发/运维工程师  # 云计算是一个非常有挑战和前景的领域，它既要求扎实全面的计算机基础知识，同时又要求极高的编程功底和基础运维能力，作为 IaaS，它掌管全部 IT 基础设施并为其上的大规模应用提供高效稳定的运行环境。云计算和 AI 就是运维的未来，也是整个 IT 业未来发展的必然趋势。
+  Why Me:
+    - 快速学习能力(理解计算机底层运作原理, 理解分布式系统, 爱好通过阅读源码分析解决问题)
+    - 随和包容, 诚信正直
+    - 工作认真负责, 有条理, 务实, 有责任心
+    - 善于规划, 有冒险精神
+  Why You:
+    - 行业发展前景
+    - 企业文化
+    - 工程师文化
+    - leader & team
+    - 工作环境
 
-求职意向:  # 我能做什么, 想做什么
-  云计算是一个非常有挑战和前景的领域，它既要求扎实全面的计算机基础知识，同时又要求极高的编程功底和基础运维能力，作为 IaaS，它掌管全部 IT 基础设施并为其上的大规模应用提供高效稳定的运行环境。
-  云计算和 AI 就是运维的未来，也是整个 IT 业未来发展的必然趋势。
+职业技能:
+  - CET4
+  - 专业素质:
+    基础知识:
+      - 体系结构
+      - 操作系统
+      - 编译原理
+      - 算法
+      - 网络
+    编程平台:  # C - Python/Scala - Lisp
+      - JavaScript
+      - C
+      - Java
+      - Python:  # since 2014
+        数据结构:
+          - list
+          - tuple
+          - dict
+          - set
+          - collections
+          - queue
+          - heapq
+        高级语法:
+          - 列表、字典推导
+          - 装饰器
+          - 生成器
+          - 上下文管理器
+          - 协议方法
+          - 描述符
+          - metaclass
+          - async
+        标准库:
+          - os, sys, pdb, traceback
+          - threading, multiprocessing
+          - itertools
+          - logging
+          - unittest
+          - re, json
+          - argparse, configparser, subprocess
+          - socket, http, wsgiref, urllib
+        第三方库:
+          - requests
+          - sqlalchemy
+          - eventlet
+          - paramiko
+          - celery
+          - supervisor
+          - schema
+          - cliff
+          - pillow
+          - webob, pecan, flask, django, tornado, twisted, scrapy
+          - numpy, scipy, matplotlib, scikit-learn
+        venv & tox:
+        jupyter:
+      - Erlang
+      - Lisp
+    技术领域:
+      - Web
+      - App
+      - 游戏
+      - Qt
+      - 中间件:
+        - ntp
+        - syslog
+        - postgresql
+        - rabbitmq
+        - apache
+        - nginx
+        - haproxy
+        - lvs
+        - keepalived
+        - corosync
+        - etcd
+        - redis
+      - DevOps:
+        - jenkins
+        - ansible
+        - docker:
+          - CLI
+          - image & dockerfile
+          - container
+          - network
+          - volume
+          - k8s:
+            组件:
+              - kubernetes-master
+                - kube-apiserver
+                - kube-controller-manager
+                - kube-scheduler
+              - kubernetes-node
+                - kubelet
+                - kube-proxy
+              - kubernetes-client
+                - kubectl
+            概念:
+              - buildconfigs 
+              - builds
+              - clusters 
+              - componentstatuses 
+              - configmaps 
+              - daemonsets 
+              - deployments 
+              - deploymentconfigs 
+              - endpoints 
+              - events 
+              - horizontalpodautoscalers 
+              - imagestreamimages 
+              - imagestreams 
+              - imagestreamtags 
+              - ingresses 
+              - groups
+              - jobs
+              - limitranges 
+              - namespaces 
+              - networkpolicies
+              - nodes 
+              - persistentvolumeclaims 
+              - persistentvolumes 
+              - pods 
+              - podsecuritypolicies 
+              - podtemplates
+              - policies
+              - projects
+              - replicasets 
+              - replicationcontrollers 
+              - resourcequotas 
+              - rolebindings
+              - routes
+              - secrets
+              - serviceaccounts 
+              - services 
+              - statefulsets
+              - users
+              - storageclasses
+              - thirdpartyresources
+            原理:
+            部署:
+        - zabbix
+        - elasticsearch
+      - OpenStack:  # https://www.openstack.org/software/
+        - keystone:
+          - 概念:
+            - user
+            - group
+            - credential
+              - password
+              - token
+                - pki
+                - fernet
+            - role  # 全局唯一
+            - policy
+            - project
+            - domain  # user group project 在domain内唯一
+            - endpoint
+            - service
+            - region  # 每个region下可以有独立的openstack部署及对应的endpoint, keystone可以跨region
+          - keystoneauth
+          - keystonemiddleware
+        - glance
+        - nova:
+          - 组件:
+            - nova-api
+            - nova-compute
+            - nova-scheduler
+            - nova-conductor
+          - nova-cell
+          - 创虚拟机调用过程:
+            - nova.api.openstack.compute:APIRouterV21.factory -> ROUTE_LIST '/servers/{id}/action'
+            - nova.api.openstack.compute.servers.ServersController.create
+            - nova.compute.API.create -> _create_instance
+            - nova.conductor.api.ComputeTaskAPI.build_instances -> nova.conductor.rpcapi.ComputeTaskAPI.build_instances -> nova.conductor.manager.ComputeTaskManager.build_instances
+            - nova.compute.rpcapi.ComputeAPI.build_and_run_instance -> nova.compute.manager.ComputeManager.build_and_run_instance -> _do_build_and_run_instance -> _build_and_run_instance
+            - nova.virt.libvirt.driver.LibvirtDriver.spawn
+        - neutron  # server - plugin - extension -agent
+        # https://docs.openstack.org/neutron/latest/admin/config-ml2.html#ml2-driver-support-matrix
+        - cinder
+        - swift
+      - 分布式存储
+        - Ceph
+      - 分布式计算
+        - Spark
+      - AI
 
-自我评价:
-  除了颜值和不怎么会聊天以外，我是一个随和包容、诚信正直、守时、有责任心、务实、有冒险精神、善于规划和学习的人。
-  我期待一个公正且有领导力的上级以及能够精诚合作的团队，为我们共同的目标，不懈奋斗！
+业余爱好:  # 以下是我感兴趣的领域, 不代表已具备这些方面的特长
+  - 运动, 健身
+  - 阅读
+  - 写作
+  - 音乐
+  - 数学
+  - 金融
+  - 心理学
