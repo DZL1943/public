@@ -149,6 +149,7 @@
           - container
           - network
           - volume
+          - Machine Compose Swarm
           - k8s:
             组件:
               - kubernetes-master
