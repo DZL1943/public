@@ -168,6 +168,7 @@
             原理:
             部署:
               - kubespray
+              - RKE
         - zabbix
         - elasticsearch
       - OpenStack:  # https://www.openstack.org/software/
