@@ -162,9 +162,10 @@
               - kubernetes-client
                 - kubectl
             概念:
-              - node
-              - pod
               - service
+              - pod
+              - container
+              - node
             原理:
             部署:
               - kubespray
