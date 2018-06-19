@@ -163,8 +163,7 @@
                 - kubectl
             概念:
               - service
-              - pod
-              - container
+              - pod/container
               - node
             原理:
             部署:
