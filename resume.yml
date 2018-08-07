@@ -182,10 +182,15 @@
       - SDN
     - 数据存储
       - 缓存
+        - redis
       - 块存储
+        - ceph
+        - SQL
       - 文件存储
       - 对象存储/共享存储
+        - NoSQL
       - 大数据
+        - hadoop
     - Web/App
     - UIUX
     - 游戏媒体
