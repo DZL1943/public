@@ -46,8 +46,8 @@
     - 几何 拓扑
     - 分析
     - 应用
-      - 统计
-      - 计算
+      - 概率 统计
+      - 信息 计算
   计算机基础:
     - 体系结构
     - 操作系统
@@ -186,7 +186,7 @@
           - cinder  # https://docs.openstack.org/arch-design/design-storage/design-storage-concepts.html#table-openstack-storage
           - swift
     - 编译器
-    - 算法
+    - 算法  # https://en.wikipedia.org/wiki/Time_complexity#Polylogarithmic_time
       - 机器学习
     - 网络通信
       - SDN
