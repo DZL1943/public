@@ -1,26 +1,30 @@
 ---
-版本: 20180918
-链接: 
-  - https://github.com/DZL1943/public/blob/master/resume.yml
-  - https://github.com/DZL1943/public/blob/master/CS.png
+版本: 20181107
+链接: https://github.com/DZL1943/public/blob/master/resume.yml
 关键词:
   - Python
   - 云计算(OpenStack)
-  - 运维开发(DevOps)
-  - Docker 容器
+  - 运维开发(DevOps) Docker
+联系方式:
+  - 手机:
+  - Email: ldz1943@163.com
+  - QQ:
 简介: |+
-  刘德忠, 江西人, 16年毕业于南昌大学软件工程专业(本科).
+  刘德忠/男/1994
+  2012.9-2016.6 本科/南昌大学软件工程系
   2016.5-2017.12 外包在华为杭研做云计算基础服务开发.
-  2018.1-2018.6 在华云数据上海分部做DevOps工程师.
-  2018.7-2018.9 辞职在家思考人生方向以及职业规划.
-  
+  2018.1-2018.6 在华云数据上海分部做 DevOps 工程师.
+
+  Linux/Python/OpenStack/Docker, 关注机器学习和区块链技术.
+
+  https://github.com/DZL1943/public/blob/master/Me.pdf
+
   我相信劳动创造价值, 而人是最重要的价值主体.
   我追求智慧和效率, 而计算机是人类迄今以来最伟大的发明, 人工智能是当世最具变革力量的技术.
-
-  作为一名程序员, 我的目标是系统架构以及开发一款自己的软件, 更高层的, 我希望学习人工智能技术以帮助人脑智能更好的发展.
-  我目前的主力编程语言是Python, 其优点在于代码可读性以及丰富的源码库.此外我能使用C, 了解Lisp Scala等.
-  我的技术背景是OpenStack, 一个用Python写就的云计算IaaS平台(我并不希望埋没在其中的代码细节里, 我对分布式系统以及各类中间件感兴趣), 此外我还了解Docker以及DevOps.
-  总体而言, 我较少涉及纯应用开发, 我更愿意去学习基础的 通用的知识而不是特定平台 领域的, 这与我选择的编程语言也有关系.面对现今层出不穷的新技术, 基础的重要性更显突出, 我以为只有能够从最基本的层面开始构造出核心才算真正主宰和掌握了一门技术.
+  作为一名CS从业者, 我花费了较多时间广泛地学习基础的 通用的技术, 思考自己在行业中的价值.
+  我认为作为技术人员一定要有专精的领域(益于求职以及深度发展)以及独立软件开发的核心技术栈.
+  目前我希望入职一家有态度和愿景的公司踏实学习和奉献.
+  
 
 求职意向:
   地点:  # 暂无要求, 以下是优先项
@@ -49,194 +53,41 @@
     - leader & team
     - 工作环境
 
-专业素质:  # 细化程度 ≈ 熟练度和关注度
-  计算机基础:
-    - 体系结构
-    - 操作系统
-    - 编译原理
-    - 图形学
-    - 数据结构 算法
-    - 网络
-    - 存储
-    - 人工智能
-  程序设计:
-    - 变量 类型 数据结构
-    - 控制结构
-    - FP
-    - OO
-    - IO
-    - 并发
-    - 模块
-    - 元编程
-  语言平台(语法 库 运行时):
-    - Shell
-    - JavaScript
-    - C/C++
-    - Java
-    - C#
-    - Python:
-      数据结构:
-        - list
-        - tuple
-        - dict
-        - set
-        - collections
-        - queue
-        - heapq
-      高级语法:
-        - 列表、字典推导
-        - 装饰器
-        - 生成器
-        - 上下文管理器
-        - 协议方法
-        - 描述符
-        - metaclass
-        - async
-      标准库:
-        - os, sys, pdb, traceback
-        - threading, multiprocessing
-        - itertools
-        - logging
-        - unittest
-        - re, json
-        - argparse, configparser, subprocess
-        - socket, http, wsgiref, urllib
-      第三方库:
-        - tox
-        - requests
-        - sqlalchemy
-        - eventlet
-        - paramiko
-        - celery
-        - supervisor
-        - schema
-        - cliff
-        - pillow
-        - webob, pecan, flask, django, tornado, twisted, scrapy
-        - numpy, scipy, matplotlib, scikit-learn
-        - sympy
-    - Erlang
-    - Lisp
-  软件工程:
-    - 分析
-    - 设计
-    - 构建
-      - gitlab
-      - gerrit
-      - jenkins
-    - 测试
-    - 运维
-      - ansible
-      - zabbix
-  软件架构:
-  技术领域:
-    - 操作系统:
-      - 虚拟化和云计算:
-        - kubernetes:
-          - kubernetes-master
-            - kube-apiserver
-            - kube-controller-manager
-            - kube-scheduler
-          - kubernetes-node
-            - kubelet
-            - kube-proxy
-          - kubernetes-client
-            - kubectl
-        - openstack:  # https://www.openstack.org/software/  Architecture Guide -> Installation Guides/Deployment Guides -> Administrator Guides
-          - keystone:
-            - 概念:
-              - user
-              - group
-              - credential
-                - password
-                - token
-                  - pki
-                  - fernet
-              - role  # 全局唯一
-              - policy
-              - project
-              - domain  # user group project 在domain内唯一
-              - endpoint
-              - service
-              - region  # 每个region下可以有独立的openstack部署及对应的endpoint, keystone可以跨region
-            - keystoneauth
-            - keystonemiddleware
-          - glance
-          - nova:
-            - 组件:
-              - nova-api
-              - nova-compute
-              - nova-scheduler
-              - nova-conductor
-            - nova-cell:
-            - 创虚拟机调用过程:
-              - nova.api.openstack.compute:APIRouterV21.factory -> ROUTE_LIST '/servers/{id}/action'
-              - nova.api.openstack.compute.servers.ServersController.create
-              - nova.compute.API.create -> _create_instance
-              - nova.conductor.api.ComputeTaskAPI.build_instances -> nova.conductor.rpcapi.ComputeTaskAPI.build_instances -> nova.conductor.manager.ComputeTaskManager.build_instances
-              - nova.compute.rpcapi.ComputeAPI.build_and_run_instance -> nova.compute.manager.ComputeManager.build_and_run_instance -> _do_build_and_run_instance -> _build_and_run_instance
-              - nova.virt.libvirt.driver.LibvirtDriver.spawn
-            - hypervisor:
-              - KVM
-              - LXC
-              - QEMU
-              - VMware ESX/ESXi
-              - Xen
-              - Hyper-V
-              - Docker
-          - neutron  # server - plugin - extension -agent
-          # https://docs.openstack.org/neutron/latest/admin/config-ml2.html#ml2-driver-support-matrix
-          - cinder  # https://docs.openstack.org/arch-design/design-storage/design-storage-concepts.html#table-openstack-storage
-          - swift
-    - 编译器
-    - 算法
-      - 机器学习
-    - 网络通信
-      - SDN
-    - 数据存储
-      - 缓存
-      - 块存储
-      - 文件存储
-      - 对象存储/共享存储
-      - 大数据
-    - Web/App
-    - UIUX
-    - 游戏媒体
-    - 安全
-    - 分布式系统和中间件
-  业务领域:
+技能清单: # https://github.com/DZL1943/public/blob/master/Me.pdf
+  - Linux
+  - Python: https://github.com/DZL1943/public/blob/master/Python.png
+  - PostgreSQL
+  - OpenStack: https://github.com/DZL1943/public/blob/master/OpenStack.png
+  - Docker: https://github.com/DZL1943/public/blob/master/Docker.png
+  - Ansible
+  - Nginx
+  - RabbitMQ
 
-工作经验:
+工作经历:
   - 2018.1-2018.6:
     公司: 华云数据-上海
-    职位: DevOps工程师
+    职位: DevOps 工程师
     工作内容:
-      - jenkins打包自动化: 现有一套基于jenkins view的打包构建流, 但是每次小版本迭代都要项目经理知会并确认patch已合入后才能打包, 效率低下, 自动化程度不够, 并发支持不足, 复用性 扩展性 可维护性不好. 为此我主动提出优化, 使用pipeline语法为每个工程编写了独立的构建任务, 使其同时支持多版本多分支构建 本地构建 gerrit构建 release构建等, 并且流程可扩展test deploy等等, 完全可以由项目本身人员自主操作.
-      - gerrit门禁:
-      - tempest: 背景是当前手工测试非常耗费时间和人力, 严重影响迭代效率, 上级提出要采用社区的方案, 比如tempest rally, 我接手了tempest, 因为以前有过接触. 详细阅读了官方文档后, 我迅速掌握了其部署方式和基本用法, 还编写了jenkins自动化任务, 前期时间主要耗费在调试配置上. 后续先后处理了报告展示 在虚环境中运行 用subunit先后替代pytest ostestr运行 分析报错case 筛选比对需要屏蔽的case等等问题. 因为这边的代码相对社区原生有改动, 涉及服务众多, 而此事只我一人负责, 所有的问题需要我去发现和解决根本是不现实的.
-      - 开发/测试环境部署和维护:
-      - 容器技术预研:
+      - Jenkins-Gerrit:
+        S: 初来乍到, 我归属于研发效率组, 小团队包括我共3人.我一开始的任务是备份a的工作之一 - Jenkins 打包自动化
+        T: 参考我上一家公司的经历, 这边的基础设施相对低级和不规范, 我提议做一些优化
+        A: 学习 Jenkins, 熟悉现有流程和自动化脚本, 学习 pipeline 语法和 Jenkinsfile, 搭建新的 Jenkins Master, 改造现有脚本, 自动化 Jenkins slave 环境的搭建
+        R: 搭建完成了一台新的运行在 Docker 容器中的 Jenkins Master, 自动化了 slave 环境的搭建, 优化了现有打包脚本并集成到 Gerrit, 原单元测试的 job 也基本迁移完成
+      - Tempest:
+        S: 当前研发迭代效率低下, 瓶颈之一是缺乏自动化测试, 为此上级决定引进原生 OpenStack 社区的做法, 即 Tempest 和 Rally, 我负责前者
+        T: 这个东西于我不算陌生, 我可以搭建起来, 但是适配自有云平台的工作需要多方协作才有可能推进解决
+        A: 阅读相关文档, 搭建环境, 编写配置, 运行 Tempest 用例; 编写 Tempest 的 Jenkins 任务, 优化运行时长和结果展示; 分析测试结果, 适配自有云平台
+        R: 每次版本构建 Jenkins 可以很好的触发 Tempest 测试并输出直观的结果, 但适配自有云平台的工作因为太过复杂以及工作量大未能完成
+      - 云平台部署-Ansible(OS+Ceph+OpenStack+WebUI 不涉及)
+      - K8S 预研
   - 2016.5-2017.12: 
     公司: 软通动力-杭州
-    职位: Python开发工程师
-    工作内容:  # 外包在华云杭研做云计算基础服务开发, 涉及模块 keystone rabbitmq gaussdb ntp log healthcheck等
-      - 从一个模块的测试用例开始: 因为初次接触云计算这个庞大的领域, 一开始我在CICD小组和其中的外包人员一起做自研模块自动化用例的补充工作. 我一开始负责的模块是信息收集, 这是一个相对庞大的模块, 其功能包含四个小部分, 信息收集 健康检查 审计 ostf. 我详细研读了该模块的代码, 并和其它模块的做对比交叉学习, 觉得其有许多可优化的空间, 就这样越钻越熟, 期间还和导师一起实现了几个小功能.
-      - 转入基础服务组, 跟随版本迭代: 在某个新版本开始, 我和其它几人一起转入基础服务组, 负责自己熟悉的模块, 期间主要是跟随版本迭代做需求, 解决问题单. 渐渐地我对该模块已经非常熟悉了, 对于组内的其余模块我也先后熟悉了起来, 并且我利用业余时间积极学习原生openstack, 终于从keystone开始找到突破口.
-      - 2017.5-2017.11 推荐在运维小组oncall现网(五朵公有云)问题: 刚来时, 包括我就两人, 他负责安装部署, 我负责基础服务, 虚拟机上层问题转接给其它部门. 在此期间我迅速掌握兄弟部门(安装部署)的业务知识, 对原项目组的知识也有了更深层的认识. 在现网问题接口的6个月里,先后自主攻关问题10余个, 并主动学习了运维和openstack知识.
-      - 回归项目组做rabbitmq开发:
+    职位: Python 开发工程师
+    工作内容:  # 外包在华云杭研做云计算基础服务开发, 涉及模块 keystone rabbitmq gaussdb ntp log healthcheck 等
+      因为初次接触云计算这个庞大的领域, 一开始我在 CI 小组和其中的外包人员一起做自研模块自动化用例的补充工作. 我一开始负责的模块是信息收集, 这是一个相对庞大的模块, 其功能包含四个小部分, 信息收集 健康检查 审计 OSTF. 我详细研读了该模块的代码, 并和其它模块的做对比交叉学习, 觉得其有许多可优化的空间, 就这样越钻越熟, 期间还和导师一起实现了几个小功能.
+      在某个新版本开始, 我和其它几人一起转入基础服务组, 负责自己熟悉的模块, 期间主要是跟随版本迭代做需求, 解决问题单. 渐渐地我对该模块已经非常熟悉了, 对于组内的其余模块我也先后熟悉了起来, 并且我利用业余时间积极学习原生 OpenStack, 终于从 Keystone 开始找到突破口.
+      2017.5-2017.11 推荐在运维小组(二线) OnCall 现网问题, 业务包括基础服务(keystone rabbitmq gaussdb ntp log 等) + 安装部署(以 Zookeeper 为中心的 HA、配置管理实现) + 升级备份. 在此期间, 我积极深入学习原项目组 ,兄弟团队,原生 OpenStack 以及基础运维知识, 对于每一个现网问题都认真高效的解决和闭环并且输出高质量的问题分析报告.
+      回归项目组做 RabbitMQ (时间短暂)
 
-个人信息:
-  姓名: 刘德忠
-  性别: 男
-  年龄: 24
-  户籍: 江西赣州
-  婚育: 未婚
-  住址:
-  联系方式:
-    - 电话: 
-    - email: ldz1943@163.com
-  职业: 软件工程师
-  自述:
-    INTJ-C, 主业软件工程师, 爱好数学 音乐 写作 心理 历史 经济 健身
-    做一个健康 靠谱 有趣 有价值的人.
+致谢: 感谢您花时间阅读我的简历, 期待能有机会和您共事.
 ...
